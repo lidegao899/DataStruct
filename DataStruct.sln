@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceStr", "ReplaceStr\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetContinueCharCountOfString", "GetContinueCharCountOfString\GetContinueCharCountOfString.csproj", "{52FDCBF6-CB18-4A8C-9E65-1F8AB9D4CC8A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{73C7D79B-93DF-4F90-A881-122359DDD7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "804. Unique Morse Code Words", "804. Unique Morse Code Words\804. Unique Morse Code Words.csproj", "{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,14 @@ Global
 		{52FDCBF6-CB18-4A8C-9E65-1F8AB9D4CC8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52FDCBF6-CB18-4A8C-9E65-1F8AB9D4CC8A}.Release|x86.ActiveCfg = Release|Any CPU
 		{52FDCBF6-CB18-4A8C-9E65-1F8AB9D4CC8A}.Release|x86.Build.0 = Release|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Debug|x86.Build.0 = Debug|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Release|x86.ActiveCfg = Release|Any CPU
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +114,7 @@ Global
 		{CC14DF8D-BC8A-42D2-87C7-AE463DFD9CBD} = {FB1BBDC2-2155-47FA-BA97-8B96EC4775D5}
 		{C1E24B2B-44B9-4A95-B831-2E375A0192C2} = {FB1BBDC2-2155-47FA-BA97-8B96EC4775D5}
 		{52FDCBF6-CB18-4A8C-9E65-1F8AB9D4CC8A} = {FB1BBDC2-2155-47FA-BA97-8B96EC4775D5}
+		{0C5D0663-AFD4-4BED-AB9C-22D3FDA88B4A} = {73C7D79B-93DF-4F90-A881-122359DDD7FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62CE5D49-61C3-45FB-84BC-6C664FF9D534}

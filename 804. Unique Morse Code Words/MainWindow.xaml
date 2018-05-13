@@ -1,0 +1,16 @@
+﻿<Window x:Class="_804.Unique_Morse_Code_Words.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_804.Unique_Morse_Code_Words"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+		<TextBlock HorizontalAlignment="Left" Height="23" Margin="233,85,0,0" TextWrapping="Wrap" Text="Input String" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="inputbox" Margin="358,74,143.6,312" KeyUp="inputbox_KeyUp" Text="e" />
+		<TextBlock HorizontalAlignment="Left" Height="23" Margin="233,219,0,0" TextWrapping="Wrap" Text="result" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="resultbox" Margin="358,206,143.6,180" Text="0"/>
+
+	</Grid>
+</Window>
